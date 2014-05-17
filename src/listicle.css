@@ -1,0 +1,25 @@
+.listbox .entries {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.entry.done {
+    text-decoration: line-through;
+}
+
+.entry .changelink {
+    margin-left: 1em;
+    color: #999;
+}
+
+.entry .changelink a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.listbox .action {
+    cursor: pointer;
+    color: #999;
+    text-decoraration: underline;
+}
